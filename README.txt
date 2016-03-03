@@ -33,10 +33,9 @@ What you find in this repository
 
 How to create the tidy data set
 
-  -clone this repository: git clone https://github.com/jorgeluquinr/Getting-and-Cleaning-Data-Course-Project
   -download compressed raw data
-  -unzip raw data and copy the directory UCI HAR Dataset to the cloned repository root directory
-  -open a R console and set the working directory to the repository root (use setwd())
+  -unzip raw data and copy the directory UCI HAR Dataset to the root directory you are working at
+  -open a R-studio new project establishing the wd at which you donloades the data
   -source run_analisys.R script (it requires the plyr package): source('run_analysis.R')
 
-In the repository root directory you find the file sensor_avg_by_act_sub.txt with the tidy data set.
+You will find the tidy data set in the directory under the name tidydata.txt
